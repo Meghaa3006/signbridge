@@ -1,0 +1,124 @@
+{
+  "vocabulary": {
+    "doctor": {
+      "dataset_label": "87. Doctor",
+      "folder_name": "Doctor",
+      "display_name": "Doctor",
+      "category": "Jobs",
+      "archive": "Jobs_1of2.zip"
+    },
+    "patient": {
+      "dataset_label": "88. Patient",
+      "folder_name": "Patient",
+      "display_name": "Patient",
+      "category": "Jobs",
+      "archive": "Jobs_1of2.zip"
+    },
+    "hospital": {
+      "dataset_label": "30. Hospital",
+      "folder_name": "Hospital",
+      "display_name": "Hospital",
+      "category": "Places",
+      "archive": "Places_3of4.zip"
+    },
+    "medicine": {
+      "dataset_label": "3. Medicine",
+      "folder_name": "Medicine",
+      "display_name": "Medicine",
+      "category": "Society",
+      "archive": "Society_1of3.zip"
+    },
+    "sick": {
+      "dataset_label": "98. sick",
+      "folder_name": "sick",
+      "display_name": "Sick",
+      "category": "Adjectives",
+      "archive": "Adjectives_8of8.zip"
+    },
+    "healthy": {
+      "dataset_label": "99. healthy",
+      "folder_name": "healthy",
+      "display_name": "Healthy",
+      "category": "Adjectives",
+      "archive": "Adjectives_8of8.zip"
+    },
+    "today": {
+      "dataset_label": "73. Today",
+      "folder_name": "Today",
+      "display_name": "Today",
+      "category": "Days_and_Time",
+      "archive": "Days_and_Time_1of3.zip"
+    },
+    "tomorrow": {
+      "dataset_label": "74. Tomorrow",
+      "folder_name": "Tomorrow",
+      "display_name": "Tomorrow",
+      "category": "Days_and_Time",
+      "archive": "Days_and_Time_2of3.zip"
+    }
+  },
+  "demo_phrases": [
+    {
+      "phrase": "Are you sick?",
+      "expected_signs": ["sick"],
+      "description": "Checks if patient feels sick"
+    },
+    {
+      "phrase": "Are you healthy?",
+      "expected_signs": ["healthy"],
+      "description": "Inquires if patient is feeling healthy"
+    },
+    {
+      "phrase": "Go to hospital tomorrow.",
+      "expected_signs": ["hospital", "tomorrow"],
+      "description": "Advises hospital visit the following day"
+    },
+    {
+      "phrase": "Take the medicine today.",
+      "expected_signs": ["medicine", "today"],
+      "description": "Instructs patient to take medication today"
+    },
+    {
+      "phrase": "The doctor will see the patient.",
+      "expected_signs": ["doctor", "patient"],
+      "description": "Informs patient about consultation"
+    },
+    {
+      "phrase": "Doctor",
+      "expected_signs": ["doctor"],
+      "description": "Single sign test: Doctor"
+    },
+    {
+      "phrase": "Patient",
+      "expected_signs": ["patient"],
+      "description": "Single sign test: Patient"
+    },
+    {
+      "phrase": "Hospital",
+      "expected_signs": ["hospital"],
+      "description": "Single sign test: Hospital"
+    },
+    {
+      "phrase": "Medicine",
+      "expected_signs": ["medicine"],
+      "description": "Single sign test: Medicine"
+    },
+    {
+      "phrase": "Today",
+      "expected_signs": ["today"],
+      "description": "Single sign test: Today"
+    },
+    {
+      "phrase": "Tomorrow",
+      "expected_signs": ["tomorrow"],
+      "description": "Single sign test: Tomorrow"
+    }
+  ],
+  "unsupported_test_phrases": [
+    "What is the weather outside?",
+    "Do you want coffee or tea?",
+    "Where did you park the car?",
+    "Good morning everyone."
+  ],
+  "medical_disclaimer": "This module is strictly an assistive reverse-ISL translation tool for controlled vocabulary. It does not perform clinical diagnosis, provide treatment recommendations, or make health determinations."
+}
